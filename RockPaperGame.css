@@ -9,7 +9,8 @@ h1{
     color: #fff;
     height: 5rem;
     line-height: 5rem;
-
+    display: flex;
+    justify-content: center;
 }
 
 .choice{
@@ -68,4 +69,28 @@ img{
     padding: 1rem;
     border-radius:1rem ;
     
+}
+
+    @media (min-width: 200px) and (max-width: 400px) {
+    img{
+        height: 75px;
+        width: 75px;
+        background-color: red;
+        border-radius: 50%;
+    }
+
+    #msg{
+        background-color: #081b31;
+        color:#fff;
+        font-size: 1.1rem;
+        display: inline;
+        padding: 1rem;
+        border-radius:1rem ;
+        
+    }
+
+    #user-score,
+#comp-score{
+    font-size: 2rem;
+}
 }
